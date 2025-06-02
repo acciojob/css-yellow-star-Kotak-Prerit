@@ -1,1 +1,28 @@
 /*  your css code here. If applicable */
+body{
+	padding:10vh;
+	margin:0;
+	box-sizing:border-box;
+}
+div{
+	height:200px;
+	width:200px;
+	position:relative;
+	border:1px solid;
+}
+div::after,div::before{
+	content:'';
+	width:0;
+	position:absolute;
+	border-inline:25px solid transparent;
+	left:50%;
+	top:50%;
+	transform:translate(-50%,-50%);
+}
+div::before{
+	border-bottom:50px solid yellow;
+}
+div::after{
+	border-top: 50px solid yellow;
+	top:57%;
+}
