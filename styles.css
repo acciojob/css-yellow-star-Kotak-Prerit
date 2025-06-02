@@ -7,12 +7,12 @@ body{
 	content:'';
 	width:0;
 	position:absolute;
-	border-inline:30px solid transparent;
+	border-inline:40px solid transparent;
 }
 .star::before{
-	border-bottom:60px solid yellow;
+	border-bottom:80px solid yellow;
 }
 .star::after{
-	border-top: 60px solid yellow;
-	top:20px;
+	border-top: 80px solid yellow;
+	top:27px
 }
